@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry exported="true" kind="lib" path="/Users/tdu/Code/java-workspace/Timemory/lib/core.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/tdu/Code/java-workspace/Timemory/lib/glgraphics.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/tdu/Code/java-workspace/Timemory/lib/gluegen-rt.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/tdu/Code/java-workspace/Timemory/lib/jogl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="unfolding_app_template_with_examples_0.9.3/libNative/macosx"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/Users/tdu/Code/java-workspace/Timemory/lib/json4processing.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/tdu/Code/java-workspace/Timemory/lib/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/tdu/Code/java-workspace/Timemory/lib/opengl.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/tdu/Code/java-workspace/Timemory/lib/unfolding.0.9.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
