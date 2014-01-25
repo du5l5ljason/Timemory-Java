@@ -7,7 +7,7 @@ import utils.GeoMathUtils;
 
 public class WorldCoords{
 
-    final double lat, lon, alt;
+    protected final double lat, lon, alt;
 
     /**
      * Construct the WorldCoords object. (double values)
@@ -92,6 +92,19 @@ public class WorldCoords{
      */
     public WorldCoords setAlt(double alt){
         return new WorldCoords(lat, lon, alt);
+    }
+
+    /*
+     * Checks if another object is equivalent
+     */
+    @Override
+    public boolean equals(Object obj){
+        if(!(obj instanceof WorldCoords)){
+            return false;
+        }
+
+        WorldCoords other = (WorldCoords)obj;
+        return other.lat == this.lat && other.lon == this.lon && other.alt == this.alt;
     }
 
     /*
